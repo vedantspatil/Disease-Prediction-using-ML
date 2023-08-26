@@ -211,7 +211,7 @@ Name = StringVar()
 w2 = Label(root, justify=LEFT, text="Disease Predictor using Machine Learning", fg="white", bg="blue")
 w2.config(font=("Elephant", 30))
 w2.grid(row=1, column=0, columnspan=2, padx=100)
-w2 = Label(root, justify=LEFT, text="A Project by Yaswanth Sai Palaghat", fg="white", bg="blue")
+w2 = Label(root, justify=LEFT, text="A Project by Vedant Sarjerao Patil", fg="white", bg="blue")
 w2.config(font=("Aharoni", 30))
 w2.grid(row=2, column=0, columnspan=2, padx=100)
 
@@ -267,13 +267,13 @@ S5En = OptionMenu(root, Symptom5,*OPTIONS)
 S5En.grid(row=11, column=1)
 
 
-dst = Button(root, text="DecisionTree", command=DecisionTree,bg="green",fg="yellow")
+dst = Button(root, text="DecisionTree", command=DecisionTree,bg="green",fg="black")
 dst.grid(row=8, column=3,padx=10)
 
-rnf = Button(root, text="Randomforest", command=randomforest,bg="green",fg="yellow")
+rnf = Button(root, text="Randomforest", command=randomforest,bg="green",fg="black")
 rnf.grid(row=9, column=3,padx=10)
 
-lr = Button(root, text="NaiveBayes", command=NaiveBayes,bg="green",fg="yellow")
+lr = Button(root, text="NaiveBayes", command=NaiveBayes,bg="green",fg="black")
 lr.grid(row=10, column=3,padx=10)
 
 #textfileds
